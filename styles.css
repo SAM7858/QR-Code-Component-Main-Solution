@@ -40,7 +40,6 @@ h6 {
 body {
     background-color: var(--clr-light-gray);
     font-family: var(--ff-main);
-    /* margin: 1.5rem; */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -54,6 +53,7 @@ body {
     overflow: hidden;
     padding: 0.9rem; 
     margin: 0 auto;
+    box-shadow: 0 10px 40px var(--clr-grayish-blue);
 
     max-width: 370px;
     inline-size: 20rem;
@@ -87,5 +87,5 @@ p{
     padding-bottom: 0.925rem;
 }
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; text-align: center; padding-top: 1rem; }
 .attribution a { color: hsl(228, 45%, 44%); } 
